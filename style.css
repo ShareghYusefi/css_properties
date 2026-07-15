@@ -59,3 +59,37 @@ body {
   background-size: cover;
   /* background-repeat: no-repeat; */
 }
+
+/* Input Pseudo classes */
+input:invalid {
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+
+input:valid {
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+}
+
+.hover-button:hover {
+  background-color: blue;
+  color: white;
+}
+
+a:link {
+  color: brown;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+a:active {
+  color: greenyellow;
+}
+
+a:visited {
+  color: aqua;
+}
