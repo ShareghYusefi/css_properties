@@ -48,3 +48,14 @@ body {
 .styled-box:hover {
   width: 500px;
 }
+
+#oak-tree {
+  width: 400px;
+  height: 500px;
+  margin: 10px auto;
+  background-color: blue;
+  border-radius: 10px;
+  background-image: url("oak-tree.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
