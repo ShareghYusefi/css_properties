@@ -27,8 +27,8 @@ body {
   height: 50px;
   margin: 20px auto;
   padding: 20px;
-  border: 2px solid green;
-  background-color: cyan;
+  border: 2px solid rgb(0, 255, 0);
+  background-color: hsl(0, 100%, 50%);
 }
 
 .styled-box {
@@ -38,7 +38,7 @@ body {
   border-radius: 15px;
   border: 2px solid purple;
   background-color: blanchedalmond;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px #00ffaa;
   transition:
     width 2s,
     height 4s,
